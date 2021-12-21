@@ -6,6 +6,10 @@ int main() {
     printf("Enter number of integers in a row (R): ");
     scanf("%d", &r);
     
+    if (r == 0) {
+        return 0;
+    }
+    
     int n = 0;
     printf("Enter N: ");
     scanf("%d", &n);
@@ -16,7 +20,6 @@ int main() {
             printf("\n");
         }
     }
-    
     
     
     return 0;
