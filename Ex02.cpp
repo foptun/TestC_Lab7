@@ -16,6 +16,7 @@ int main() {
     
     float av = ((float)sum / 10);
     
+    printf("\n=== Output ===\n");
     printf("The sum of these integers is: %d\n", sum);
     printf("The average of these integers is: %.2f", av);
     
